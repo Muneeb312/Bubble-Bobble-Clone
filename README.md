@@ -2,6 +2,14 @@
 
 A single-screen arcade platformer inspired by Bubble Bobble. This project demonstrates core 2D mechanics, including tilemap collisions, enemy trapping, and projectile physics.
 
+## How to Run
+
+1.  Open Godot 4.x.
+2.  Import the `project.godot` file from this folder.
+3.  **Main Entry Point:** Run `scenes/main/Main.tscn`
+4.  Press **F5** to play the default main scene.
+
+
 ## Controls
 
 The game uses Godot's InputMap system with the following actions:
@@ -33,12 +41,6 @@ The game uses Godot's InputMap system with the following actions:
   - Player has limited lives (HUD displays hearts/lives).
   - Game Over screen appears when lives reach 0, with a Restart option.
 
-## How to Run
-
-1.  Open Godot 4.x.
-2.  Import the `project.godot` file from this folder.
-3.  **Main Entry Point:** Run `scenes/main/Main.tscn`
-4.  Press **F5** to play the default main scene.
 
 ## Project Structure
 
