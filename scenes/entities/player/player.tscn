@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://1nyod48y2df"]
+
+[ext_resource type="Script" uid="uid://dx2u1nm02ebto" path="res://scripts/player.gd" id="1_4lj41"]
+[ext_resource type="Texture2D" uid="uid://dhyogq2bi6lwh" path="res://assets/sprites/bubble_bobble_guy-removebg-preview.png" id="2_635qg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4lj41"]
+size = Vector2(44, 40)
+
+[node name="Level01" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("1_4lj41")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+position = Vector2(2.7500038, -0.49999237)
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("2_635qg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(1.7500076, -0.49999237)
+shape = SubResource("RectangleShape2D_4lj41")
